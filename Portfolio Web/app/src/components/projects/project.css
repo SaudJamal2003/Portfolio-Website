@@ -1,0 +1,148 @@
+#projects{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: -12%;
+}
+
+
+.main{
+    display: flex;
+    flex-direction: column;
+    gap: 150px;
+}
+
+.projects__title{
+    font-size: 35px;
+    font-weight: medium;
+}
+.project__subtitle{
+    font-size: 14px;
+}
+
+.projects__row1{
+    display: flex;
+    width: 100%;
+    margin-top: 50px;
+    justify-content: center;
+    /* align-items: center; */
+    gap: 50px;
+}
+
+.project__one{
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    width: 20%;
+    gap: 30px;
+    cursor: pointer;
+}
+
+.project__one h4,
+.project__two h4,
+.project__three__text h4{
+    font-size: smaller;
+    font-weight: lighter;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.project__two{
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    width: 20%;
+    gap: 30px;
+    cursor: pointer;
+}
+
+.helpingHands{
+    filter: brightness(85%);
+    object-fit: cover;
+   border-radius: 0.6rem;
+}
+
+.elegenceInteriors{
+    /* filter: brightness(90%); */
+    /* height: 160px; */
+    object-fit: cover;
+    border-radius: 0.6rem;
+}
+
+.project__one:hover{
+    filter: brightness(55%);
+    transform: scale(1.02);
+    /* filter: blur(); */
+    transition: 0.4s;
+}
+
+.project__two:hover{
+    transform: scale(1.02);
+    filter: brightness(55%);
+    /* filter: blur(); */
+    transition: 0.4s;
+}
+.project__three:hover{
+    transform: scale(1.1);
+    filter: brightness(55%);
+    /* filter: blur(); */
+    transition: 0.4s;
+}
+
+.projects__row2{
+    display: flex;
+    width: 100%;
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.project__three{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 150px;
+    width: 25%;
+    gap: 30px;
+    cursor: pointer;
+}
+
+.cookieCafe{
+    object-fit: cover;
+    border-radius: 0.6rem;
+}
+
+
+@media screen and (max-width: 992px){
+  
+  }
+  @media screen and (max-width: 768px){
+    .main{
+        gap: 105px;
+    }
+    .projects__row1{
+        gap: 120px;
+        align-items: center;
+        flex-direction: column;
+    }
+    .project__one{
+        align-items: center;
+        width: 50%;
+    }
+    .project__two{
+        align-items: center;
+        width: 50%;
+    }
+    .project__three{
+        width: 50%;
+    }
+  }
+  
+  @media screen and (max-width: 576px){}
+  
+  @media screen and (max-width: 350px){
+  
+  }

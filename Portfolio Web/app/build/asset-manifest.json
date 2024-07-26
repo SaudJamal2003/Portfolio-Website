@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/static/css/main.b7eac090.css",
+    "main.js": "/static/js/main.93eef0f3.js",
+    "static/js/453.a6a97343.chunk.js": "/static/js/453.a6a97343.chunk.js",
+    "static/media/helpingHands.png": "/static/media/helpingHands.78c2145ec190fcea8e04.png",
+    "static/media/Saud Jamal-Resume.pdf": "/static/media/Saud Jamal-Resume.2ce253015332c0eb1e56.pdf",
+    "static/media/mypic.jpeg": "/static/media/mypic.cd2a61f2cffc0d606509.jpeg",
+    "static/media/Interior_pic.webp": "/static/media/Interior_pic.25d8644c49c1b8faf87d.webp",
+    "index.html": "/index.html",
+    "main.b7eac090.css.map": "/static/css/main.b7eac090.css.map",
+    "main.93eef0f3.js.map": "/static/js/main.93eef0f3.js.map",
+    "453.a6a97343.chunk.js.map": "/static/js/453.a6a97343.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b7eac090.css",
+    "static/js/main.93eef0f3.js"
+  ]
+}
